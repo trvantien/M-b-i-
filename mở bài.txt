@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tỏ Tình Noel</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1 id="question">Noel năm nay ăn 🌽 nướng đánh ♠️♣️♥️♦️ đeee...?</h1>
+        <button class="answer" id="answerYes">Có</button>
+        <button class="answer" id="answerNo">Không</button>
+
+        <div id="nextQuestion" style="display:none;">
+            <h2 id="question2">Nổ cái địa điểm bạn êii...?</h2>
+            <button class="answer" id="answerPlace1">Nhà Anh Tiên Đẹp rai...😎</button>
+            <button class="answer" id="answerPlace2">Cổng nhà Việt 🤣</button>
+        </div>
+
+        <div id="finalQuestion" style="display:none;">
+            <h2 id="question3">Nổ anh nghe cái thời gian nào...?😗</h2>
+            <button class="answer" id="answerTime1">Tối 22</button>
+            <button class="answer" id="answerTime2">Tối 23</button>
+            <button class="answer" id="answerTime3">Tối 24</button>
+        </div>
+    </div>
+    
+    <script src="script.js"></script>
+</body>
+</html>
